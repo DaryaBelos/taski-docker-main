@@ -80,6 +80,6 @@ jobs:
           # находится в ./backend/
           context: ./backend/
           # Параметр push: true указывает, что образ нужно не только собрать,
-          # но и отправить на Docker Hub
+          # но и отправить на Docker
           push: true
           tags: DaryaBelos/taski_backend:latest
