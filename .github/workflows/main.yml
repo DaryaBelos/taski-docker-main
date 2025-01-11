@@ -177,7 +177,7 @@ jobs:
         key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.SSH_PASSPHRASE }}
         # Параметр script передаёт в action appleboy/ssh-action команды,
-        # которые нужно выполнить на срвере, 
+        # которые нужно выполить на срвере, 
         script: |
           cd taski
           # Выполняет pull образовс Docker Hub
