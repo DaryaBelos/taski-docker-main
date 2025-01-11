@@ -180,7 +180,7 @@ jobs:
         # которые нужно выполнить на сервере, 
         script: |
           cd taski
-          # Выполняет pull образов с Docker Hub
+          # Выполняет pull образовс Docker Hub
           sudo docker compose -f docker-compose.production.yml pull
           # Перезапускает все контейнеры в Docker Compose
           sudo docker compose -f docker-compose.production.yml down
