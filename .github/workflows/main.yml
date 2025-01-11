@@ -82,4 +82,4 @@ jobs:
           # Параметр push: true указывает, что образ нужно не только собрать,
           # но и отправить на Docker
           push: true
-          tags: DaryaBelos/taski_backend:latest
+          tags: dariabelos/taski_backend:latest
