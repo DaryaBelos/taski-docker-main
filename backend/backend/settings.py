@@ -11,7 +11,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['taskif.zapto.org']
 
 
-# Application definition
+# Application definitio
 
 INSTALLED_APPS = [
     'api.apps.ApiConfig',
